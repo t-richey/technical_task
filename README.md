@@ -69,9 +69,6 @@ Or, to manually fetch:
 terraform output load_balancer_url
 ```
 
-Access point:
-- **Element Web**: `http://<load-balancer-url>/``
-
 ## Cleanup
 
 To destroy all resources:
@@ -121,6 +118,7 @@ aws logs delete-log-group --log-group-name /aws/vpc/victim-support-app-dev-flow-
         ├── variables.tf              # LB configuration
         └── outputs.tf                # ALB DNS name
 ```
+
 
 
 
