@@ -1,7 +1,7 @@
 ﻿# Victim Support Platform
 
 **Note:** 
-The code isn't full developed/tested. It is very much a 'concept' at the moment, although I have successfully deployed the Terraform code, and all the services I configured are live and running on AWS.
+The code isn't full developed/tested. It is very much a 'concept' at the moment, although I have successfully deployed the Terraform code, and the services appear as expected when deployed on AWS.
 
 ## Overview
 
@@ -121,6 +121,7 @@ aws logs delete-log-group --log-group-name /aws/vpc/victim-support-app-dev-flow-
         ├── variables.tf              # LB configuration
         └── outputs.tf                # ALB DNS name
 ```
+
 
 
 
